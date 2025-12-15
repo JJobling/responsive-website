@@ -123,5 +123,13 @@
     width: 1px;
     height: 1px;
     overflow: hidden;
+
+    &.skip:focus {
+      left: 0;
+      width: auto;
+      height: auto;
+      background: #fff;
+      border: 1px solid;
+    }
   }
 }
